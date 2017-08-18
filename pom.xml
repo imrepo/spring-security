@@ -10,6 +10,7 @@
 
   <modules>
     <module>v3.2/basic-inmemory</module>
+    <module>v3.2/basic-jdbc</module>
   </modules>
 
   <properties>

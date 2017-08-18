@@ -9,9 +9,9 @@
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>basic-inmemory</artifactId>
+    <artifactId>basic-jdbc</artifactId>
     <packaging>war</packaging>
-    <name>basic-inmemory</name>
+    <name>basic-jdbc</name>
 
     <properties>
         <spring.security.version>3.2.5.RELEASE</spring.security.version>
@@ -55,6 +55,11 @@
             <artifactId>spring-webmvc</artifactId>
             <version>${spring.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>3.2.4.RELEASE</version>
+        </dependency>
 
         <!-- Spring Security -->
         <dependency>
@@ -72,9 +77,16 @@
             <artifactId>spring-security-config</artifactId>
             <version>${spring.security.version}</version>
         </dependency>
+
+        <!-- H2 -->
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <version>1.4.195</version>
+        </dependency>
     </dependencies>
 
     <build>
-        <finalName>basic-inmemory</finalName>
+        <finalName>basic-jdbc</finalName>
     </build>
 </project>
