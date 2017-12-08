@@ -12,6 +12,7 @@
     <module>v3.2/basic-inmemory</module>
     <module>v3.2/basic-jdbc</module>
     <module>v3.2/impersonate</module>
+    <module>v3.2/jdbc-h2-console</module>
   </modules>
 
   <properties>

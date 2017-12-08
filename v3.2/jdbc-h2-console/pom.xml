@@ -9,9 +9,9 @@
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>basic-jdbc</artifactId>
+    <artifactId>jdbc-h2-console</artifactId>
     <packaging>war</packaging>
-    <name>basic-jdbc</name>
+    <name>jdbc-h2-console</name>
 
     <dependencies>
         <!-- Spring -->
@@ -70,6 +70,6 @@
     </dependencies>
 
     <build>
-        <finalName>basic-jdbc</finalName>
+        <finalName>jdbc-h2-console</finalName>
     </build>
 </project>
