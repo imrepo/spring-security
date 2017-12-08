@@ -1,17 +1,13 @@
 package xpadro.spring.security.web;
 
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
-import org.springframework.security.core.GrantedAuthority;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import xpadro.spring.security.root.service.CustomerService;
-
-import java.util.stream.Collectors;
-
-import static java.util.stream.Collectors.joining;
 
 @Controller
 public class AppController {
@@ -34,8 +30,6 @@ public class AppController {
     }
 
     private String getAuthorities(Authentication authentication) {
-        return authentication.getAuthorities().stream()
-                .map(GrantedAuthority::getAuthority)
-                .collect(joining(", "));
+        return StringUtils.join(authentication.getAuthorities(), ", ");
     }
 }
