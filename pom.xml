@@ -13,7 +13,8 @@
     <module>v3.2/basic-jdbc</module>
     <module>v3.2/impersonate</module>
     <module>v3.2/jdbc-h2-console</module>
-      <module>v3.2/password-encoder-default</module>
+    <module>v3.2/password-encoder-default</module>
+    <module>v3.2/password-encoder-bcrypt</module>
   </modules>
 
   <properties>
