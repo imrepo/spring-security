@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class AppController {
 
-    @RequestMapping(value = "/secure", method = RequestMethod.GET)
+    @RequestMapping(value = "/user", method = RequestMethod.GET)
     public @ResponseBody String secured() {
         return "Hello user!";
     }
