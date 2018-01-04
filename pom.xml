@@ -16,6 +16,7 @@
     <module>v3.2/password-encoder-default</module>
     <module>v3.2/password-encoder-bcrypt</module>
     <module>v3.2/rememberme-token</module>
+    <module>v3.2/rememberme-persistent</module>
   </modules>
 
   <properties>
