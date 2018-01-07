@@ -1,4 +1,5 @@
-*/target
+**/target
 */environment
 .idea
 *.iml
+.DS_Store
