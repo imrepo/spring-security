@@ -9,7 +9,7 @@
 
     <http auto-config='true'>
         <intercept-url pattern="/admin" access="ROLE_ADMIN" />
-        <intercept-url pattern="/WEB-INF/spring" access="ROLE_USER" />
+        <intercept-url pattern="/**" access="ROLE_USER" />
     </http>
 
     <authentication-manager>
