@@ -17,6 +17,7 @@ JavaConfig samples:
    [v4-basic-inmemory]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-basic-inmemory  
 
 <br/>
+
 ### Spring Security 3.x
 Sometimes you may be working on a client or project where upgrading libraries is not an option. Here you will find some basic examples on how to work with an older version of Spring Security.
 
