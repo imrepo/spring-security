@@ -1,25 +1,30 @@
 spring-security
 ===============
 
-A Spring Security Repository containing examples on how to implement different functionalities of the framework. 
+This repository contains examples on how to implement different functionalities with the Spring Security framework. 
+<br />
 
-### Spring Security 4.x samples
+### Spring Security 4.x
 
 Spring version: 4.2.3
 Spring Security version: 4.2.3
 Java version: 1.8
 
+JavaConfig samples:
+
 * [v4-basic-inmemory] - A basic example of a secured application using in-memory defined users
 
-   [v4-basic-inmemory]: https://github.com/xpadro/spring-integration/tree/master/unexisting
+   [v4-basic-inmemory]: https://github.com/xpadro/spring-integration/tree/master/unexisting  
 
-
-### Spring Security 3.x samples
+<br/>
+### Spring Security 3.x
 Sometimes you may be working on a client or project where upgrading libraries is not an option. Here you will find some basic examples on how to work with an older version of Spring Security.
 
 Spring version: 3.2.10
 Spring Security version: 3.2.10
 Java version: 1.7
+
+XML samples:
 
 * [basic-inmemory] - A basic example of a secured application using in-memory defined users (defined in security-context.xml).
 * [basic-jdbc] - Modified version of basic-inmemory where users are stored in an in-memory database (H2).
