@@ -9,6 +9,7 @@ This repository contains examples on how to implement different functionalities 
 Spring version: 4.2.3 <br />
 Spring Security version: 4.2.3 <br />
 Java version: 1.8
+<br />
 
 JavaConfig samples:
 
@@ -24,6 +25,7 @@ Sometimes you may be working on a client or project where upgrading libraries is
 Spring version: 3.2.10 <br />
 Spring Security version: 3.2.10 <br />
 Java version: 1.7
+<br />
 
 XML samples:
 
