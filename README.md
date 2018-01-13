@@ -14,7 +14,7 @@ JavaConfig samples:
 
 * [v4-basic-inmemory] - A basic example of a secured application using in-memory defined users
 
-   [v4-basic-inmemory]: https://github.com/xpadro/spring-integration/tree/master/unexisting  
+   [v4-basic-inmemory]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-basic-inmemory  
 
 <br/>
 ### Spring Security 3.x
@@ -31,10 +31,14 @@ XML samples:
 * [jdbc-h2-console] - The previous basic-jdbc example configuring a H2 servlet to enable connecting to the in-memory database.
 * [password-encoder-default] - basic-jdbc example configuring a standard password encoder that uses SHA-256 hashing.
 * [password-encoder-bcrypt] - basic-jdbc example configuring a password encoder that uses BCrypt hashing function.
+* [rememberme-token] - Configures a remember me using a token approach
+* [rememberme-persistent] - Configures a persistent remember me relying on a database
 
 
-   [basic-inmemory]: https://github.com/xpadro/spring-integration/tree/master/unexisting
-   [basic-jdbc]: https://github.com/xpadro/spring-integration/tree/master/unexisting
-   [jdbc-h2-console]: https://github.com/xpadro/spring-integration/tree/master/unexisting
-   [password-encoder-default]: https://github.com/xpadro/spring-integration/tree/master/unexisting
-   [password-encoder-bcrypt]: https://github.com/xpadro/spring-integration/tree/master/unexisting
+   [basic-inmemory]: https://github.com/xpadro/spring-security/tree/master/v3/xml/basic-inmemory
+   [basic-jdbc]: https://github.com/xpadro/spring-security/tree/master/v3/xml/basic-jdbc
+   [jdbc-h2-console]: https://github.com/xpadro/spring-security/tree/master/v3/xml/jdbc-h2-console
+   [password-encoder-default]: https://github.com/xpadro/spring-security/tree/master/v3/xml/password-encoder-default
+   [password-encoder-bcrypt]: https://github.com/xpadro/spring-security/tree/master/v3/xml/password-encoder-bcrypt
+   [rememberme-token]: https://github.com/xpadro/spring-security/tree/master/v3/xml/rememberme-token
+   [rememberme-persistent]: https://github.com/xpadro/spring-security/tree/master/v3/xml/rememberme-persistent
