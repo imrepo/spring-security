@@ -6,8 +6,8 @@ This repository contains examples on how to implement different functionalities 
 
 ### Spring Security 4.x
 
-Spring version: 4.2.3
-Spring Security version: 4.2.3
+Spring version: 4.2.3 <br />
+Spring Security version: 4.2.3 <br />
 Java version: 1.8
 
 JavaConfig samples:
@@ -21,8 +21,8 @@ JavaConfig samples:
 ### Spring Security 3.x
 Sometimes you may be working on a client or project where upgrading libraries is not an option. Here you will find some basic examples on how to work with an older version of Spring Security.
 
-Spring version: 3.2.10
-Spring Security version: 3.2.10
+Spring version: 3.2.10 <br />
+Spring Security version: 3.2.10 <br />
 Java version: 1.7
 
 XML samples:
