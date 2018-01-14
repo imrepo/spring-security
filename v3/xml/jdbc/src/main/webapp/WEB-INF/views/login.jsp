@@ -1,18 +1,19 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: xpadro
-  Date: 31/12/2017
-  Time: 13:34
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
 <html>
 <head>
     <title>Login Page</title>
 </head>
-<body>
+<body onload="document.loginForm.j_username.focus();">
     <h3>Login with Username and Password</h3>
-    <form name='f' action='/login' method='POST'>
+    <form name='loginForm' action='/j_spring_security_check' method='POST'>
+        <c:choose>
+            <c:when test="${param.error != null}">
+                <p style="color: red;">Your login attempt was not successful</p>
+            </c:when>
+        </c:choose>
+
         <table>
             <tr>
                 <td>User:</td>
