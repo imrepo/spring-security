@@ -19,6 +19,7 @@
                     authentication-failure-url="/login?error"/>
 
         <logout logout-success-url="/login?logout"/>
+        <csrf />
     </http>
 
     <authentication-manager>
