@@ -9,9 +9,9 @@
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>v4-basic-inmemory</artifactId>
+    <artifactId>v4-basic-jdbc</artifactId>
     <packaging>war</packaging>
-    <name>v4-basic-inmemory</name>
+    <name>v4-basic-jdbc</name>
 
     <dependencies>
         <!-- Spring -->
@@ -29,9 +29,19 @@
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-config</artifactId>
         </dependency>
+
+        <!-- Database -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
-        <finalName>v4-basic-inmemory</finalName>
+        <finalName>v4-basic-jdbc</finalName>
     </build>
 </project>

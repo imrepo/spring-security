@@ -15,8 +15,10 @@ Java version: 1.8
 JavaConfig samples:
 
 * [v4-basic-inmemory] - A basic example of a secured application using in-memory defined users
+* [v4-basic-jdbc] - Modified version of basic-inmemory where users are stored in an in-memory database (H2).
 
-   [v4-basic-inmemory]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-basic-inmemory  
+   [v4-basic-inmemory]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-basic-inmemory
+   [v4-basic-jdbc]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-basic-jdbc
 
 <br/>
 
