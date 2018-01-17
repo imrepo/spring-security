@@ -29,6 +29,10 @@
             <tr>
                 <td colspan='2'><input name="submit" type="submit" value="Login"/></td>
             </tr>
+            <tr>
+                <td><input type='checkbox' name='test_remember'/></td>
+                <td>Remember me on this computer.</td>
+            </tr>
         </table>
 
         <input type="hidden"

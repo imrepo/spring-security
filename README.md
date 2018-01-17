@@ -38,6 +38,12 @@ XML samples:
 * [password-encoder-bcrypt] - basic-jdbc example configuring a password encoder that uses BCrypt hashing function.
 * [rememberme-token] - Configures a remember me using a token approach
 * [rememberme-persistent] - Configures a persistent remember me relying on a database
+* [jdbc] - Complete example covering the basic features of a secured application, described below:
+    * user details backed up by an in-memory database (H2)
+    * encrypted credentials with BCrypt
+    * CSRF protection
+    * logout feature
+    * remember-me feature
 
 
    [basic-inmemory]: https://github.com/xpadro/spring-security/tree/master/v3/xml/basic-inmemory
@@ -47,3 +53,4 @@ XML samples:
    [password-encoder-bcrypt]: https://github.com/xpadro/spring-security/tree/master/v3/xml/password-encoder-bcrypt
    [rememberme-token]: https://github.com/xpadro/spring-security/tree/master/v3/xml/rememberme-token
    [rememberme-persistent]: https://github.com/xpadro/spring-security/tree/master/v3/xml/rememberme-persistent
+   [jdbc]: https://github.com/xpadro/spring-security/tree/master/v3/xml/jdbc
