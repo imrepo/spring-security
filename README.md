@@ -40,6 +40,7 @@ XML samples:
 * [rememberme-persistent] - Configures a persistent remember me relying on a database
 * [jdbc] - Complete example covering the basic features of a secured application, described below:
     * user details backed up by an in-memory database (H2)
+    * custom login page
     * encrypted credentials with BCrypt
     * CSRF protection
     * logout feature

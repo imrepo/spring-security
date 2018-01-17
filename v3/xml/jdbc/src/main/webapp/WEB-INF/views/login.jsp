@@ -13,7 +13,7 @@
                 <p style="color: red;">Your login attempt was not successful</p>
             </c:when>
             <c:when test="${param.logout != null}">
-                <p>Your successfuly logged out</p>
+                <p>You successfuly logged out</p>
             </c:when>
         </c:choose>
 
