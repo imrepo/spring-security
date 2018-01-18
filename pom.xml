@@ -20,6 +20,7 @@
     <module>v3/xml/rememberme-token</module>
     <module>v4/javaconfig/v4-basic-inmemory</module>
     <module>v4/javaconfig/v4-basic-jdbc</module>
+    <module>v4/javaconfig/v4-password-encoder-bcrypt</module>
   </modules>
 
   <properties>

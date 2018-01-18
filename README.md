@@ -14,16 +14,19 @@ Java version: 1.8
 
 JavaConfig samples:
 
-* [v4-basic-inmemory] - A basic example of a secured application using in-memory defined users
+* [v4-basic-inmemory] - The most basic example of a secured application. Users are defined in-memory in the security 
+configuration. Secured paths are 'home' and 'admin' which are available depending on the user role.
 * [v4-basic-jdbc] - Modified version of basic-inmemory where users are stored in an in-memory database (H2).
+* [v4-password-encoder-bcrypt] - The previous basic-jdbc example configuring a password encoder that uses BCrypt hashing 
+function in order to encode user credentials before persisting them.
 
    [v4-basic-inmemory]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-basic-inmemory
    [v4-basic-jdbc]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-basic-jdbc
+   [v4-password-encoder-bcrypt]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-password-encoder-bcrypt
 
 <br/>
 
 ### Spring Security 3.x
-Sometimes you may be working on a client or project where upgrading libraries is not an option. Here you will find some basic examples on how to work with an older version of Spring Security.
 
 Spring version: 3.2.10 <br />
 Spring Security version: 3.2.10 <br />
@@ -33,13 +36,15 @@ Java version: 1.7
 
 XML samples:
 
-* [basic-inmemory] - A basic example of a secured application using in-memory defined users (defined in security-context.xml).
+* [basic-inmemory] - The most basic example of a secured application. Users are defined in-memory in the security 
+configuration. Secured paths are 'home' and 'admin' which are available depending on the user role.
 * [basic-jdbc] - Modified version of basic-inmemory where users are stored in an in-memory database (H2).
 * [jdbc-h2-console] - The previous basic-jdbc example configuring a H2 servlet to enable connecting to the in-memory database.
 * [password-encoder-default] - basic-jdbc example configuring a standard password encoder that uses SHA-256 hashing.
-* [password-encoder-bcrypt] - basic-jdbc example configuring a password encoder that uses BCrypt hashing function.
-* [rememberme-token] - Configures a remember me using a token approach
-* [rememberme-persistent] - Configures a persistent remember me relying on a database
+* [password-encoder-bcrypt] - The previous basic-jdbc example configuring a password encoder that uses BCrypt hashing function
+ in order to encode user credentials before persisting them.
+* [rememberme-token] - Configures a remember me using a token approach, which sets a cookie in the browser.
+* [rememberme-persistent] - Configures a persistent remember me. THis is a more secure version which relies on a database
 * [jdbc] - Complete example covering the basic features of a secured application, described below:
     * user details backed up by an in-memory database (H2)
     * custom login page
