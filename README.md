@@ -19,10 +19,14 @@ configuration. Secured paths are 'home' and 'admin' which are available dependin
 * [v4-basic-jdbc] - Modified version of basic-inmemory where users are stored in an in-memory database (H2).
 * [v4-password-encoder-bcrypt] - The previous basic-jdbc example configuring a password encoder that uses BCrypt hashing 
 function in order to encode user credentials before persisting them.
+* [v4-rememberme-token] - Configures a remember me using a token approach, which sets a cookie in the browser.
+* [v4-rememberme-persistent] - Configures a persistent remember me. THis is a more secure version which relies on a database
 
    [v4-basic-inmemory]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-basic-inmemory
    [v4-basic-jdbc]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-basic-jdbc
    [v4-password-encoder-bcrypt]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-password-encoder-bcrypt
+   [v4-rememberme-token]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-rememberme-token
+   [v4-rememberme-persistent]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-rememberme-persistent
 
 <br/>
 
