@@ -17,6 +17,7 @@ JavaConfig samples:
 * [v4-basic-inmemory] - The most basic example of a secured application. Users are defined in-memory in the security 
 configuration. Secured paths are 'home' and 'admin' which are available depending on the user role.
 * [v4-basic-jdbc] - Modified version of basic-inmemory where users are stored in an in-memory database (H2).
+* [v4-jdbc-h2-console] - The previous basic-jdbc example configuring a H2 servlet to enable connecting to the in-memory database.
 * [v4-password-encoder-bcrypt] - The previous basic-jdbc example configuring a password encoder that uses BCrypt hashing 
 function in order to encode user credentials before persisting them.
 * [v4-rememberme-token] - Configures a remember me using a token approach, which sets a cookie in the browser.
@@ -24,6 +25,7 @@ function in order to encode user credentials before persisting them.
 
    [v4-basic-inmemory]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-basic-inmemory
    [v4-basic-jdbc]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-basic-jdbc
+   [v4-jdbc-h2-console]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-jdbc-h2-console
    [v4-password-encoder-bcrypt]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-password-encoder-bcrypt
    [v4-rememberme-token]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-rememberme-token
    [v4-rememberme-persistent]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-rememberme-persistent
