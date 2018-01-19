@@ -21,6 +21,7 @@
     <module>v4/javaconfig/v4-basic-inmemory</module>
     <module>v4/javaconfig/v4-basic-jdbc</module>
     <module>v4/javaconfig/v4-password-encoder-bcrypt</module>
+    <module>v4/javaconfig/v4-rememberme-token</module>
   </modules>
 
   <properties>
