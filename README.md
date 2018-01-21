@@ -22,6 +22,13 @@ configuration. Secured paths are 'home' and 'admin' which are available dependin
 function in order to encode user credentials before persisting them.
 * [v4-rememberme-token] - Configures a remember me using a token approach, which sets a cookie in the browser.
 * [v4-rememberme-persistent] - Configures a persistent remember me. THis is a more secure version which relies on a database
+* [v4-jdbc] - Complete example covering the basic features of a secured application, described below:
+    * user details backed up by an in-memory database (H2)
+    * custom login page
+    * encrypted credentials with BCrypt
+    * CSRF protection
+    * logout feature
+    * remember-me feature
 
    [v4-basic-inmemory]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-basic-inmemory
    [v4-basic-jdbc]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-basic-jdbc
@@ -29,6 +36,7 @@ function in order to encode user credentials before persisting them.
    [v4-password-encoder-bcrypt]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-password-encoder-bcrypt
    [v4-rememberme-token]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-rememberme-token
    [v4-rememberme-persistent]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-rememberme-persistent
+   [v4-jdbc]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-jdbc
 
 <br/>
 
