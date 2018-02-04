@@ -30,7 +30,7 @@
                 <td colspan='2'><input name="submit" type="submit" value="Login"/></td>
             </tr>
             <tr>
-                <td><input type='checkbox' name='test_remember'/></td>
+                <td><input type='checkbox' name='_spring_security_remember_me'/></td>
                 <td>Remember me on this computer.</td>
             </tr>
         </table>

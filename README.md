@@ -6,8 +6,8 @@ This repository contains examples on how to implement different functionalities 
 
 ### Spring Security 4.x
 
-Spring version: 4.2.3 <br />
-Spring Security version: 4.2.3 <br />
+Spring version: 4.3.14.RELEASE <br />
+Spring Security version: 4.2.4.RELEASE <br />
 Java version: 1.8
 
 <br />
@@ -42,8 +42,8 @@ function in order to encode user credentials before persisting them.
 
 ### Spring Security 3.x
 
-Spring version: 3.2.10 <br />
-Spring Security version: 3.2.10 <br />
+Spring version: 3.2.10.RELEASE <br />
+Spring Security version: 3.2.10.RELEASE <br />
 Java version: 1.7
 
 <br />

@@ -1,21 +1,22 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
+    <modelVersion>4.0.0</modelVersion>
+
     <parent>
-        <artifactId>spring-security</artifactId>
         <groupId>xpadro.spring</groupId>
+        <artifactId>spring-security</artifactId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../pom.xml</relativePath>
+        <relativePath>../../pom.xml</relativePath>
     </parent>
 
-    <modelVersion>4.0.0</modelVersion>
-    <artifactId>v4.x</artifactId>
+    <artifactId>v4.javaconfig</artifactId>
     <packaging>pom</packaging>
 
     <properties>
         <compile-source>1.8</compile-source>
-        <spring.security.version>4.2.3.RELEASE</spring.security.version>
-        <spring.version>4.2.3.RELEASE</spring.version>
+        <spring.security.version>4.2.4.RELEASE</spring.security.version>
+        <spring.version>4.3.14.RELEASE</spring.version>
     </properties>
 
     <dependencyManagement>
