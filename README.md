@@ -12,6 +12,15 @@ Java version: 1.8
 
 <br />
 
+Spring Boot samples:
+
+* [v4-boot-basic-inmemory] - The most basic example of a secured application. Users are defined in-memory in the security 
+configuration. Secured paths are 'home' and 'admin' which are available depending on the user role.
+
+    [v4-boot-basic-inmemory]: https://github.com/xpadro/spring-security/tree/master/v4/boot/v4-boot-basic-inmemory
+
+<br />
+
 JavaConfig samples:
 
 * [v4-basic-inmemory] - The most basic example of a secured application. Users are defined in-memory in the security 

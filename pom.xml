@@ -29,7 +29,7 @@
     <module>v4/javaconfig/v4-jdbc-h2-console</module>
     <module>v4/javaconfig/v4-jdbc</module>
 
-    <module>v4/boot/v4-boot-password-encoder-bcrypt</module>
+    <module>v4/boot/v4-boot-basic-inmemory</module>
   </modules>
 
   <properties>
