@@ -15,51 +15,51 @@ Java version: 1.8
 * **Basic in-memory**: The most basic example of a secured application. Users are defined in-memory in the security 
 configuration. Secured paths are 'home' and 'admin' which are available depending on the user role.
     
-    Links to source code: [Spring Boot] | [JavaConfig]
+    Links to source code: [Spring Boot][v4-boot-basic-inmemory] | [JavaConfig][v4-basic-inmemory]
                    
-    [Spring Boot]: https://github.com/xpadro/spring-security/tree/master/v4/boot/v4-boot-basic-inmemory 
-    [JavaConfig]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-basic-inmemory
+    [v4-boot-basic-inmemory]: https://github.com/xpadro/spring-security/tree/master/v4/boot/v4-boot-basic-inmemory 
+    [v4-basic-inmemory]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-basic-inmemory
 
 <br />
 
 * **Basic JDBC**: Modified version of basic-inmemory where users are stored in an in-memory database (H2).
 
-    Links to source code: [JavaConfig]
+    Links to source code: [JavaConfig][v4-basic-jdbc]
     
-    [JavaConfig]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-basic-jdbc
+    [v4-basic-jdbc]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-basic-jdbc
 
 <br />
 
 * **Basic JDBC with H2**: The previous basic-jdbc example configuring a H2 servlet to enable connecting to the in-memory database.
 
-    Links to source code: [JavaConfig]
+    Links to source code: [JavaConfig][v4-basic-jdbc-h2]
     
-    [JavaConfig]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-jdbc-h2-console
+    [v4-basic-jdbc-h2]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-jdbc-h2-console
 
 <br />
 
 * **BCrypt password encoder**: The previous basic-jdbc example configuring a password encoder that uses BCrypt hashing 
 function in order to encode user credentials before persisting them.
 
-    Links to source code: [JavaConfig]
+    Links to source code: [JavaConfig][v4-password-encoder]
     
-    [JavaConfig]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-password-encoder-bcrypt
+    [v4-password-encoder]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-password-encoder-bcrypt
 
 <br />
 
 * **Remember-me token**: Configures a remember me using a token approach, which sets a cookie in the browser.
 
-    Links to source code: [JavaConfig]
+    Links to source code: [JavaConfig][v4-rememberme-token]
     
-    [JavaConfig]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-rememberme-token
+    [v4-rememberme-token]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-rememberme-token
 
 <br />
 
 * **Remember-me persistent**: Configures a persistent remember me. THis is a more secure version which relies on a database
 
-    Links to source code: [JavaConfig]
+    Links to source code: [JavaConfig][v4-rememberme-persistent]
 
-    [JavaConfig]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-rememberme-persistent
+    [v4-rememberme-persistent]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-rememberme-persistent
 
 <br />
 
@@ -73,9 +73,9 @@ function in order to encode user credentials before persisting them.
     
     <br />
     
-    Links to source code: [JavaConfig]
+    Links to source code: [JavaConfig][v4-jdbc-full]
     
-    [JavaConfig]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-jdbc
+    [v4-jdbc-full]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-jdbc
 
 
 
@@ -92,58 +92,58 @@ Java version: 1.7
 * **Basic in-memory**: The most basic example of a secured application. Users are defined in-memory in the security 
 configuration. Secured paths are 'home' and 'admin' which are available depending on the user role.
     
-    Links to source code: [XML]
+    Links to source code: [XML][v3-inmemory]
                    
-    [XML]: https://github.com/xpadro/spring-security/tree/master/v3/xml/basic-inmemory 
+    [v3-inmemory]: https://github.com/xpadro/spring-security/tree/master/v3/xml/basic-inmemory 
 
 <br />
 
 * **Basic JDBC**: Modified version of basic-inmemory where users are stored in an in-memory database (H2).
 
-    Links to source code: [XML]
+    Links to source code: [XML][v3-basic-jdbc]
     
-    [XML]: https://github.com/xpadro/spring-security/tree/master/v3/xml/basic-jdbc
+    [v3-basic-jdbc]: https://github.com/xpadro/spring-security/tree/master/v3/xml/basic-jdbc
 
 <br />
 
 * **Basic JDBC with H2**: The previous basic-jdbc example configuring a H2 servlet to enable connecting to the in-memory database.
 
-    Links to source code: [XML]
+    Links to source code: [XML][v3-jdbc-h2]
     
-    [XML]: https://github.com/xpadro/spring-security/tree/master/v3/xml/jdbc-h2-console
+    [v3-jdbc-h2]: https://github.com/xpadro/spring-security/tree/master/v3/xml/jdbc-h2-console
 
 <br />
 
 * **Default password encoder**: Basic-jdbc example configuring a standard password encoder that uses SHA-256 hashing.
 
-    Links to source code: [XML]
+    Links to source code: [XML][v3-password-encoder-default]
     
-    [XML]: https://github.com/xpadro/spring-security/tree/master/v3/xml/password-encoder-default
+    [v3-password-encoder-default]: https://github.com/xpadro/spring-security/tree/master/v3/xml/password-encoder-default
 
 <br />
 
 * **BCrypt password encoder**: The previous basic-jdbc example configuring a password encoder that uses BCrypt hashing 
 function in order to encode user credentials before persisting them.
 
-    Links to source code: [XML]
+    Links to source code: [XML][v3-password-encoder-bcrypt]
     
-    [XML]: https://github.com/xpadro/spring-security/tree/master/v3/xml/password-encoder-bcrypt
+    [v3-password-encoder-bcrypt]: https://github.com/xpadro/spring-security/tree/master/v3/xml/password-encoder-bcrypt
 
 <br />
 
 * **Remember-me token**: Configures a remember me using a token approach, which sets a cookie in the browser.
 
-    Links to source code: [XML]
+    Links to source code: [XML][v3-rememberme-token]
     
-    [XML]: https://github.com/xpadro/spring-security/tree/master/v3/xml/rememberme-token
+    [v3-rememberme-token]: https://github.com/xpadro/spring-security/tree/master/v3/xml/rememberme-token
 
 <br />
 
 * **Remember-me persistent**: Configures a persistent remember me. THis is a more secure version which relies on a database
 
-    Links to source code: [XML]
+    Links to source code: [XML][v3-rememberme-persistent]
 
-    [XML]: https://github.com/xpadro/spring-security/tree/master/v3/xml/rememberme-persistent
+    [v3-rememberme-persistent]: https://github.com/xpadro/spring-security/tree/master/v3/xml/rememberme-persistent
 
 <br />
 
@@ -157,6 +157,6 @@ function in order to encode user credentials before persisting them.
     
     <br />
     
-    Links to source code: [XML]
+    Links to source code: [XML][v3-jdbc-full]
     
-    [XML]: https://github.com/xpadro/spring-security/tree/master/v3/xml/jdbc
+    [v3-jdbc-full]: https://github.com/xpadro/spring-security/tree/master/v3/xml/jdbc
