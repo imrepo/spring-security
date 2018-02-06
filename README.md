@@ -15,10 +15,11 @@ Java version: 1.8
 * **Basic in-memory**: The most basic example of a secured application. Users are defined in-memory in the security 
 configuration. Secured paths are 'home' and 'admin' which are available depending on the user role.
     
-    Links to source code: [Spring Boot][v4-boot-basic-inmemory] | [JavaConfig][v4-basic-inmemory]
+    Links to source code: [Spring Boot][v4-boot-basic-inmemory] | [JavaConfig][v4-basic-inmemory] | [XML][v4-xml-basic-inmemory]
                    
     [v4-boot-basic-inmemory]: https://github.com/xpadro/spring-security/tree/master/v4/boot/v4-boot-basic-inmemory 
     [v4-basic-inmemory]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-basic-inmemory
+    [v4-xml-basic-inmemory]: https://github.com/xpadro/spring-security/tree/master/v4/xml/v4-xml-basic-inmemory
 
 <br />
 
