@@ -25,8 +25,9 @@ configuration. Secured paths are 'home' and 'admin' which are available dependin
 
 * **Basic JDBC**: Modified version of basic-inmemory where users are stored in an in-memory database (H2).
 
-    Links to source code: [JavaConfig][v4-basic-jdbc]
+    Links to source code: [Spring Boot][v4-boot-basic-jdbc] | [JavaConfig][v4-basic-jdbc]
     
+    [v4-boot-basic-jdbc]: https://github.com/xpadro/spring-security/tree/master/v4/boot/v4-boot-basic-jdbc
     [v4-basic-jdbc]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-basic-jdbc
 
 <br />
