@@ -33,6 +33,7 @@
     <module>v4/boot/v4-boot-password-encoder-bcrypt</module>
 
     <module>v4/xml/v4-xml-basic-inmemory</module>
+    <module>v4/xml/v4-xml-password-encoder-bcrypt</module>
   </modules>
 
   <properties>

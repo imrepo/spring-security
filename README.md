@@ -42,10 +42,11 @@ configuration. Secured paths are 'home' and 'admin' which are available dependin
 * **BCrypt password encoder**: The previous basic-jdbc example configuring a password encoder that uses BCrypt hashing 
 function in order to encode user credentials before persisting them.
 
-    Links to source code: [Spring Boot][v4-boot-password-encoder] | [JavaConfig][v4-password-encoder]
+    Links to source code: [Spring Boot][v4-boot-bcrypt] | [JavaConfig][v4-bcrypt] | [XML][v4-xml-bcrypt]
     
-    [v4-boot-password-encoder]: https://github.com/xpadro/spring-security/tree/master/v4/boot/v4-boot-password-encoder-bcrypt
-    [v4-password-encoder]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-password-encoder-bcrypt
+    [v4-boot-bcrypt]: https://github.com/xpadro/spring-security/tree/master/v4/boot/v4-boot-password-encoder-bcrypt
+    [v4-bcrypt]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-password-encoder-bcrypt
+    [v4-xml-bcrypt]: https://github.com/xpadro/spring-security/tree/master/v4/xml/v4-xml-password-encoder-bcrypt
 
 <br />
 
