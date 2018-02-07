@@ -1,25 +1,21 @@
 package xpadro.spring.security.config;
 
-import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
-import org.springframework.security.core.userdetails.User;
-import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.userdetails.UserDetailsService;
-import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 
+@Configuration
 @EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
-    @Bean
-    public UserDetailsService userDetailsService() {
-        InMemoryUserDetailsManager userDetailsManager = new InMemoryUserDetailsManager();
-        userDetailsManager.createUser(buildUser());
-        userDetailsManager.createUser(buildAdminUser());
-
-        return userDetailsManager;
+    protected void configure(AuthenticationManagerBuilder auth) throws Exception {
+        auth.inMemoryAuthentication()
+                .withUser("user").password("user").roles("USER")
+                .and()
+                .withUser("admin").password("root").roles("USER", "ADMIN");
     }
 
     @Override
@@ -34,13 +30,5 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .formLogin().and()
                 .httpBasic();
-    }
-
-    private UserDetails buildAdminUser() {
-        return User.withUsername("admin").password("root").roles("USER", "ADMIN").build();
-    }
-
-    private UserDetails buildUser() {
-        return User.withUsername("user").password("user").roles("USER").build();
     }
 }
