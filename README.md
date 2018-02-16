@@ -62,8 +62,9 @@ function in order to encode user credentials before persisting them.
 
 * **Remember-me persistent**: Configures a persistent remember me. THis is a more secure version which relies on a database
 
-    Links to source code: [JavaConfig][v4-rememberme-persistent]
+    Links to source code: [Spring Boot][v4-boot-rememberme-persistent] | [JavaConfig][v4-rememberme-persistent]
 
+    [v4-boot-rememberme-persistent]: https://github.com/xpadro/spring-security/tree/master/v4/boot/v4-boot-rememberme-persistent
     [v4-rememberme-persistent]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-rememberme-persistent
 
 <br />
