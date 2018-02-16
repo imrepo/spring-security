@@ -32,6 +32,7 @@
     <module>v4/boot/v4-boot-basic-inmemory</module>
     <module>v4/boot/v4-boot-basic-jdbc</module>
     <module>v4/boot/v4-boot-password-encoder-bcrypt</module>
+    <module>v4/boot/v4-boot-rememberme-token</module>
 
     <module>v4/xml/v4-xml-basic-inmemory</module>
     <module>v4/xml/v4-xml-password-encoder-bcrypt</module>

@@ -53,8 +53,9 @@ function in order to encode user credentials before persisting them.
 
 * **Remember-me token**: Configures a remember me using a token approach, which sets a cookie in the browser.
 
-    Links to source code: [JavaConfig][v4-rememberme-token]
+    Links to source code: [Spring Boot][v4-boot-rememberme-token] | [JavaConfig][v4-rememberme-token]
     
+    [v4-boot-rememberme-token]: https://github.com/xpadro/spring-security/tree/master/v4/boot/v4-boot-rememberme-token
     [v4-rememberme-token]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-rememberme-token
 
 <br />
