@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Login Page</title>
+</head>
+<body>
+    <h3>Login with Username and Password</h3>
+    <p style="color: red;" th:if="${param.error != null}" class="error">
+        Your login attempt was not successful
+    </p>
+    <form th:action="@{/j_spring_security_check}" method="post">
+        <label for="username">Username</label>:
+        <input type="text" id="username" name="j_username" autofocus="autofocus" /> <br />
+        <label for="password">Password</label>:
+        <input type="password" id="password" name="j_password" /> <br />
+        <input type="submit" value="Log in" />
+        <p>
+            <input type='checkbox' name='remember-me'/>Remember me on this computer.
+        </p>
+
+        <input type="hidden"
+               name="${_csrf.parameterName}"
+               value="${_csrf.token}"/>
+    </form>
+</body>
+</html>
