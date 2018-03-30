@@ -89,8 +89,6 @@ function in order to encode user credentials before persisting them.
 
 * **JDBC full sample with Thymeleaf**: The above example but using Thymeleaf instead of JSPs.
     
-    <br />
-    
     Links to source code: [Spring Boot][v4-boot-jdbc-thyme]
     
     [v4-boot-jdbc-thyme]: https://github.com/xpadro/spring-security/tree/master/v4/boot/v4-boot-jdbc-thymeleaf
@@ -99,8 +97,6 @@ function in order to encode user credentials before persisting them.
 <br />
 
 * **Method security**: Securing web and service layers
-    
-    <br />
     
     Links to source code: [JavaConfig][v4-method-sec]
     
