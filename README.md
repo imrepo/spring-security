@@ -96,6 +96,17 @@ function in order to encode user credentials before persisting them.
     [v4-boot-jdbc-thyme]: https://github.com/xpadro/spring-security/tree/master/v4/boot/v4-boot-jdbc-thymeleaf
 
 
+<br />
+
+* **Method security**: Securing web and service layers
+    
+    <br />
+    
+    Links to source code: [JavaConfig][v4-method-sec]
+    
+    [v4-method-sec]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-method-security
+
+
 <br/>
 
 ### Spring Security 3.x

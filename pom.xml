@@ -28,6 +28,7 @@
     <module>v4/javaconfig/v4-rememberme-persistent</module>
     <module>v4/javaconfig/v4-jdbc-h2-console</module>
     <module>v4/javaconfig/v4-jdbc</module>
+    <module>v4/javaconfig/v4-method-security</module>
 
     <module>v4/boot/v4-boot-basic-inmemory</module>
     <module>v4/boot/v4-boot-basic-jdbc</module>
