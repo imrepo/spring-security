@@ -98,9 +98,10 @@ function in order to encode user credentials before persisting them.
 
 * **Method security**: Securing web and service layers
     
-    Links to source code: [JavaConfig][v4-method-sec]
+    Links to source code: [Spring Boot][v4-boot-method-sec] | [JavaConfig][v4-method-sec]
     
     [v4-method-sec]: https://github.com/xpadro/spring-security/tree/master/v4/javaconfig/v4-method-security
+    [v4-boot-method-sec]: https://github.com/xpadro/spring-security/tree/master/v4/boot/v4-boot-method-security
 
 
 <br/>
