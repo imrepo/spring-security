@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class AppController {
 
     @RequestMapping(value = "/home", method = RequestMethod.GET)
-    public @ResponseBody String secured() {
+    public @ResponseBody String home() {
         return "Hello user!";
     }
 
