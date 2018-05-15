@@ -106,6 +106,15 @@ function in order to encode user credentials before persisting them.
 
 <br/>
 
+* **Retrieving user details**: Shows different ways of retrieving user details in the controller layer
+    
+    Links to source code: [Spring Boot][v4-boot-retrieve-userdetails]
+    
+    [v4-boot-retrieve-userdetails]: https://github.com/xpadro/spring-security/tree/master/v4/boot/v4-boot-retrieve-userdetails
+
+
+<br/>
+
 ### Spring Security 3.x
 
 Spring version: 3.2.10.RELEASE <br />

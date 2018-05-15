@@ -38,6 +38,7 @@
     <module>v4/boot/v4-boot-jdbc</module>
     <module>v4/boot/v4-boot-jdbc-thymeleaf</module>
     <module>v4/boot/v4-boot-method-security</module>
+    <module>v4/boot/v4-boot-retrieve-userdetails</module>
 
     <module>v4/xml/v4-xml-basic-inmemory</module>
     <module>v4/xml/v4-xml-password-encoder-bcrypt</module>
