@@ -5,7 +5,7 @@
 <head>
     <title>Admin Page</title>
 </head>
-<body onload="document.loginForm.j_username.focus();">
+<body>
     <h3>Admin page</h3>
     <c:out value="Message: ${message}"/>
     <br />

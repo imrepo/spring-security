@@ -5,7 +5,7 @@
 <head>
     <title>Home Page</title>
 </head>
-<body onload="document.loginForm.j_username.focus();">
+<body>
     <h3>Home</h3>
     <c:out value="Message: ${message}"/>
     <br />
