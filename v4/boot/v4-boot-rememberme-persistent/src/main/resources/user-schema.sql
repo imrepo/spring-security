@@ -1,5 +1,6 @@
 DROP TABLE IF EXISTS users;
-DROP TABLE IF EXISTS user_roles;
+DROP TABLE IF EXISTS authorities;
+DROP TABLE IF EXISTS persistent_logins;
 
 CREATE TABLE users (
   username varchar_ignorecase(50) NOT NULL PRIMARY KEY,
